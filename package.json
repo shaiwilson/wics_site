@@ -1,0 +1,35 @@
+{
+  "name": "wics_site",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.8",
+    "less": "1.3.3",
+    "jade": ">= 0.0.1"
+  },
+  "description": "This site is for University of San Francisco Women in Computing Club's fearless programmers to share insider cogitations about social change and diversity in STEM.",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shaiwilson/wics_site.git"
+  },
+  "keywords": [
+    "engineering",
+    "wogrammers",
+    "technology",
+    "web",
+    "development",
+    "social",
+    "change"
+  ],
+  "author": "Shai Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaiwilson/wics_site/issues"
+  },
+  "homepage": "https://github.com/shaiwilson/wics_site#readme"
+}

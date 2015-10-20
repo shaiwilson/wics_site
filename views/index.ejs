@@ -1,29 +1,6 @@
 <% layout('layout') -%>
 
-<!-- Fixed navbar -->
-	    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	          <a class="navbar-brand" href="/"><b>USF Wogrammers</b></a>
-	        </div>
-	        <div class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav">
-	            <li class="active"><a href="/" class="smothscroll">Home</a></li>
-	            <li><a href="/about" class="smothscroll">About Us</a></li>
-	            <li><a href="#showcase" class="smothScroll">Events</a></li>
-	            <li><a href="/contact">Contact</a></li>
-	          </ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </div>
-
   <body data-spy="scroll" data-offset="0" data-target="#navigation">
-
 	<section id="home" name="home"></section>
 	<div id="headerwrap">
 	    <div class="container">
@@ -31,11 +8,17 @@
 	    		<div class="col-lg-12">
 					<h1>Welcome To <b>USF Women in CS</b></h1>
 					<h3>Learn our mission and meet our board</h3>
+			          		<div class="clearfix"> </div>
+			          		<div class="big-btns">
+			          			<a class="download" href="#"><label> </label>Blog</a>
+			          			<a class="view" href="#"><label> </label>Events</a>
+			          		</div>
 					<br>
 	    		</div>
 	    	</div>
 	    </div> <!--/ .container -->
 	</div><!--/ #headerwrap -->
+</div>
 
 
 	<section id="desc" name="desc"></section>
@@ -47,17 +30,17 @@
 				<br>
 				<br>
 				<div class="col-lg-4">
-					<img src="assets/img/intro01.png" alt="">
+					<img src="images/so.jpg" alt="">
 					<h3>Community</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				<div class="col-lg-4">
-					<img src="assets/img/intro02.png" alt="">
+					<img src="images/so.jpg" alt="">
 					<h3>Events</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				<div class="col-lg-4">
-					<img src="assets/img/intro03.png" alt="">
+					<img src="images/so.jpg" alt="">
 					<h3>Resources</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -75,18 +58,18 @@
 				<br>
 				<br>
 				<div class="col-lg-6 centered">
-					<img class="centered" src="assets/img/mobile.png" alt="">
+					<img class="centered" src="images/so3.jpg" alt="">
 				</div>
 				
 				<div class="col-lg-6">
-					<h3>Some Features</h3>
+					<h3>Resources</h3>
 					<br>
 				<!-- ACCORDION -->
 		            <div class="accordion ac" id="accordion2">
 		                <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-		                        First Class Design
+		                        Les Hommes Charmant
 		                        </a>
 		                    </div><!-- /accordion-heading -->
 		                    <div id="collapseOne" class="accordion-body collapse in">
@@ -100,7 +83,7 @@
 		                <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-		                        Retina Ready Theme
+		                        Help Ahmi Find Her Prince
 		                        </a>
 		                    </div>
 		                    <div id="collapseTwo" class="accordion-body collapse">
@@ -114,7 +97,7 @@
 		                 <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-		                        Awesome Support
+		                        IDK
 		                        </a>
 		                    </div>
 		                    <div id="collapseThree" class="accordion-body collapse">
@@ -128,7 +111,7 @@
 		                 <div class="accordion-group">
 		                    <div class="accordion-heading">
 		                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-		                        Responsive Design
+		                        How to be a Queen
 		                        </a>
 		                    </div>
 		                    <div id="collapseFour" class="accordion-body collapse">
@@ -152,20 +135,20 @@
 				<h1 class="centered">Some Screenshots</h1>
 				<br>
 				<div class="col-lg-8 col-lg-offset-2">
-					<div id="carousel-example-generic" class="carousel slide">
+					<div id="carousel-example-generic" class="carousel header">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-header-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-header-to="1"></li>
 					  </ol>
 					
-					  <!-- Wrapper for slides -->
+					  <!-- Wrapper for headers -->
 					  <div class="carousel-inner">
 					    <div class="item active">
-					      <img src="assets/img/item-01.png" alt="">
+					      <img src="images/so1.jpg" alt="">
 					    </div>
 					    <div class="item">
-					      <img src="assets/img/item-02.png" alt="">
+					      <img src="images/so1.jpg" alt="">
 					    </div>
 					  </div>
 					</div>
@@ -187,4 +170,3 @@
 	})
 	</script>
   </body>
-</html>

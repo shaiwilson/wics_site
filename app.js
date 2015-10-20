@@ -4,14 +4,10 @@
  */
 
 var express = require('express');
-
 var app = module.exports = express.createServer();
 var engine = require('ejs-locals');
-app.engine('ejs', engine);
-
 
 // Configuration
-
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'ejs');
@@ -32,7 +28,6 @@ app.configure('production', function(){
 
 
 // Compatible
-
 // Now less files with @import 'whatever.less' will work(https://github.com/senchalabs/connect/pull/174)
 var TWITTER_BOOTSTRAP_PATH = './vendor/twitter/bootstrap/less';
 express.compiler.compilers.less.compile = function(str, fn){
@@ -50,6 +45,11 @@ app.get('/', function(req, res){
 // This responds a GET request for the /contact page.
 app.get('/contact', function(req, res) {
   res.render('contact');
+})
+
+// This responds a GET request for the /contact page.
+app.get('/events', function(req, res) {
+  res.render('events');
 })
 
 // This responds a GET request for /about

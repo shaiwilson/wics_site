@@ -24,6 +24,15 @@ p {
     text-align: center;
 }
 
+/* RENDER EMOJI IN BROWSER */
+
+img.emoji {  
+  // Override any img styles to ensure Emojis are displayed inline
+  margin: 0px !important;
+  display: inline !important;
+}
+
+
 /* ==========================================================================
    Links
    ========================================================================== */
@@ -117,10 +126,6 @@ a:after {
 .navbar-custom {
   position: absolute;
   padding-top: 10px;
-  padding-bottom: 10px;
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   top: 0;
   left: 0;
   width: 100%;
@@ -138,71 +143,58 @@ a:after {
    Footer
    ========================================================================== */
 
-.footer-grid p{
-    font-size:0.875em;
-    line-height:1.8em;
+
+#footer {
+    background: #222;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFF;
 }
-.footer-grid h3{
-    font-size:1.2em;
-    font-weight:600;
-    color:#282528;
+
+.copyright {
+    margin: 0;
 }
-.subscribe input[type="text"]{
-    border: none;
-    outline: none;
-    position: relative;
-    padding: 0.6em 0.6em;
+
+.copyright a{
+    border-bottom: 1px dotted #fff;
 }
-.subscribe input[type="submit"]{
-    width: 18px;
-    height: 13px;
+
+#footer span{
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    color: #ff5252;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.social-links li {
     display: inline-block;
-    background: url(../images/arrow-2.png) no-repeat 0px 0px;
-    border: none;
-    outline: none;
-    position: absolute;
-    right: 10px;
-    top: 38%;
-}
-.subscribe form{
-    border: 1px solid #CCCCCC;
-    height: 43px;
-    position: relative;
-    margin: 1.3em 0;
+    margin: 5px;
 }
 
-/* ==========================================================================
-   Reference Links
-   ========================================================================== */
+.social-links a {
+    width: 36px;
+    height: 36px;
+    display: block;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .1);
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, .2);
+}
 
-.explore ul{
-    margin:0;
-    padding:0;
+.social-links a:hover {
+    border: 1px solid rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .8);
 }
-.explore li{
-    list-style:none;
-}
-.explore li a{
-    font-size:0.875em;
-    line-height:1.8em;
-}
-.explore li a:hover{
-    text-decoration:none;
-    color:#999;
-}
-.copy-right{
-    margin-top:3em;
-}
-p.copy{
-    font-weight:600;
-}
-p.copy a:hover{
-    color:#999;
-    text-decoration:none;
-}
-.footer-grids{
-    padding:2em 0;
-}
+
 
 /* ==========================================================================
    Intro Header

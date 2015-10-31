@@ -225,3 +225,69 @@ p.copy a:hover{
 }
 
 
+.intro {
+    width: 100%;
+    height: 272px;
+    padding-top: 117px;
+    background: url(../img/head-bg.jpg) #F7F7F7 center top;
+}
+p.p-intro {
+    color: #E85F37;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    background-color: #FFF;
+    border: 1px solid #DC5227;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0 -3px 0 #ffcfbc;
+    position: relative;
+    -webkit-animation: smooth-entry-btn 1s;
+    -moz-animation: smooth-entry-btn 1s;
+    animation: smooth-entry-btn 1s;
+}
+p.p-intro:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #FFFFFF;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -9px;
+    top: 12px;
+}
+p.p-intro:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 11px 10px 11px 0;
+    border-color: transparent #DC5227;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -10px;
+    top: 10px;
+}
+img.img-intro {
+    border-radius: 100px;
+    width: 47px;
+    background-color: #EF3A3A;
+    border: 1px solid #DC5227;
+    -moz-box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.05);
+    -webkit-animation: smooth-entry-btn 1s;
+    -moz-animation: smooth-entry-btn 1s;
+    animation: smooth-entry-btn 1s;
+}
+
+
+
+
+

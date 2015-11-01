@@ -4,7 +4,6 @@
 
 body {
     font-family: "Lato";
-    margin-bottom: 5px;
     font-weight: 300;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
@@ -123,20 +122,25 @@ a:after {
    Nav Bar
    ========================================================================== */
 
-.navbar-custom {
+.navbar-custom,
+.navbar-default {
   position: absolute;
   padding-top: 10px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  background: transparent;
+  /* background: transparent; */
 }
 
 .navbar-custom .nav li a {
     font-size: 15px;
     font-weight: 500;
     color: #A4A4A4;
+}
+
+.navbar-default .navbar {
+    background: transparent;
 }
 
 /* ==========================================================================
@@ -208,7 +212,7 @@ a:after {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,

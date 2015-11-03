@@ -122,26 +122,47 @@ a:after {
    Nav Bar
    ========================================================================== */
 
-.navbar-custom,
-.navbar-default {
+.navbar-custom {
   position: absolute;
-  padding-top: 10px;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 3;
-  /* background: transparent; */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+.navbar-custom .navbar-brand {
+  font-weight: 800;
+}
 .navbar-custom .nav li a {
-    font-size: 15px;
-    font-weight: 500;
-    color: #A4A4A4;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+@media only screen and (min-width: 768px) {
+  .navbar-custom {
+    background: transparent;
+    border-bottom: 1px solid transparent;
+  }
+  .navbar-custom .navbar-brand {
+    color: white;
+    padding: 20px;
+  }
+  .navbar-custom .navbar-brand:hover,
+  .navbar-custom .navbar-brand:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar-custom .nav li a {
+    color: white;
+    padding: 20px;
+  }
+  .navbar-custom .nav li a:hover,
+  .navbar-custom .nav li a:focus {
+    color: rgba(255, 255, 255, 0.8);
+  }
 }
 
-.navbar-default .navbar {
-    background: transparent;
-}
+
 
 /* ==========================================================================
    Footer
@@ -168,6 +189,10 @@ a:after {
     -webkit-animation-iteration-count: infinite;
     color: #ff5252;
 }
+
+/* ==========================================================================
+   Font Awesome Icons
+   ========================================================================== */
 
 .social-links {
     list-style: none;
@@ -282,8 +307,6 @@ a:after {
     font-size: 30px;
   }
 }
-
-
 
 
 

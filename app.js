@@ -2,6 +2,7 @@
 /**
  * Module dependencies.
  */
+command: "npm start"
 
 var express = require('express');
 var app = module.exports = express.createServer();

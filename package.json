@@ -11,7 +11,8 @@
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/shaiwilson/wics_site/issues"
   },
+
   "homepage": "https://github.com/shaiwilson/wics_site#readme"
 }

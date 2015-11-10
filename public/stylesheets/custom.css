@@ -6,6 +6,7 @@ body {
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
+    padding-top: 70px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -103,6 +104,10 @@ a:after {
 	font-size: 20px;
 }
 
+/* ==========================================================================
+   EVENTS PAGE
+   ========================================================================== */
+
 
 .wics-container{
     background: #ffffff;
@@ -136,69 +141,73 @@ a:after {
     display: block;
 }
 
+/* ==========================================================================
+   IMAGES
+   ========================================================================== */
+
 img {
-    width: 100%;
+ display: inline-block;
+ max-width: 100%;
+ }
+
+/* index logo */
+
+.motto{
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    top: 22%;
+    width: 385px;
 }
 
-/* ==========================================================================
-   Showcase
-   ========================================================================== */
+/*=======================================================================
+NAV BAR
+=========================================================================*/
 
-#showcase {
-	display: block;
-	background-color: #34495e;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-#showcase h1 {
-	color: white;
+.navbar {
+  margin-bottom: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+  z-index: 9999;
 }
 
-/* ==========================================================================
-   Nav Bar
-   ========================================================================== */
 
-.navbar-custom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-.navbar-custom .navbar-brand {
-  font-weight: 800;
-}
-.navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-@media only screen and (min-width: 768px) {
-  .navbar-custom {
-    background: transparent;
-    border-bottom: 1px solid transparent;
-  }
-  .navbar-custom .navbar-brand {
-    color: white;
-    padding: 20px;
-  }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
-  .navbar-custom .nav li a {
-    color: white;
-    padding: 20px;
-  }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
-  }
+.navbar-default .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-bottom: 12px;
+    padding-top: 12px;
 }
 
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #FFA17F;
+    background-color: transparent;
+}
+
+.navbar-default .nav li.active a:hover {
+    color: #FFA17F;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #FFA17F;
+    background: none;
+    text-decoration: line-through;
+
+ }
+
+.navbar .navbar-brand {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
 
 
 /* ==========================================================================

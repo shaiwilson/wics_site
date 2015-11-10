@@ -35,10 +35,10 @@ img.emoji {
 /* ==========================================================================
    Links
    ========================================================================== */
-
 a {
-    color: #3bc492;
+    color: #f85c37;
     word-wrap: break-word;
+
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -48,7 +48,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #c0392b;
+    color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
@@ -101,6 +101,26 @@ a:after {
 
 #features .ac a{
 	font-size: 20px;
+}
+
+
+.wics-container{
+    background: #ffffff;
+
+}
+
+.wics-row{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.wics-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.wics-row h3{
+    margin-top: 0;
 }
 
 /* ==========================================================================
@@ -239,6 +259,14 @@ a:after {
   -o-background-size: cover;
   margin-bottom: 5px;
 }
+
+.intro-header h1 {
+  text-transform: uppercase;
+  font-size: 68px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {

@@ -43,8 +43,8 @@ app.get('/', function(req, res){
 });
 
 // This responds a GET request for the /contact page.
-app.get('/contact', function(req, res) {
-  res.render('contact');
+app.get('/resources', function(req, res) {
+  res.render('resources');
 })
 
 // This responds a GET request for the /contact page.

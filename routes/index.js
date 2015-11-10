@@ -8,7 +8,7 @@ exports.index = function(req, res){
 };
 
 exports.index = function(req, res){
-  res.render('contact.html', { title: 'USF Women in Computing' })
+  res.render('resources.html', { title: 'USF Women in Computing' })
 };
 
 exports.index = function(req, res){

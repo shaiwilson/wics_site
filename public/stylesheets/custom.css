@@ -355,3 +355,27 @@ img {
 
 
 
+/*=======================================================================
+LIST FOR REFERENCES PAGE
+=========================================================================*/
+
+ul#extra {
+   list-style: none;
+   margin: 1em 0;
+   padding: 0; 
+}
+
+ul#extra li {
+   margin: 0;
+   padding: 3px 10px 5px 20px;
+   border-bottom: 1px solid #ccc;
+   color: #7F7D7D; 
+}
+
+ul#extra li:hover {
+   background-color: #ddd; 
+}
+
+
+
+

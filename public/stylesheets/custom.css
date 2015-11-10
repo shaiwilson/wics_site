@@ -108,19 +108,36 @@ a:after {
     background: #ffffff;
 
 }
-
 .wics-row{
     margin-bottom: 20px;
     margin-top: 50px;
 }
-
 .wics-title{
     margin-top: 30px;
     margin-bottom: 15px;
 }
-
 .wics-row h3{
     margin-top: 0;
+}
+
+.space-100{
+    height: 100px;
+    display: block;
+    width: 100%;
+}
+
+.space{
+    height: 130px;
+    display: block;
+}
+
+.space-30{
+    height: 30px;
+    display: block;
+}
+
+img {
+    width: 100%;
 }
 
 /* ==========================================================================

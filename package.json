@@ -4,8 +4,7 @@
   "private": true,
   "dependencies": {
     "express": "2.5.8",
-    "less": "1.3.3",
-    "ejs": "2.3.4"
+    "less": "1.3.3"
 
   },
   "description": "This site is for University of San Francisco Women in Computing Club's fearless programmers to share insider cogitations about social change and diversity in STEM.",

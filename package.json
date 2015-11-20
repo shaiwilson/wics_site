@@ -33,5 +33,9 @@
     "url": "https://github.com/shaiwilson/wics_site/issues"
   },
 
+  "engines": {
+    "node": "4.1.0"
+  },
+
   "homepage": "https://github.com/shaiwilson/wics_site#readme"
 }

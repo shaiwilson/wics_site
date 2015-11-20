@@ -10,10 +10,8 @@
   "description": "This site is for University of San Francisco Women in Computing Club's fearless programmers to share insider cogitations about social change and diversity in STEM.",
   "main": "app.js",
   "devDependencies": {},
-  "scripts": {
-    "test": "make test",
-    "start": "node app.js"
-  },
+  "scripts" : { "start" : "node app.js" },
+
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/shaiwilson/wics_site.git"

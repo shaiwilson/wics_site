@@ -4,9 +4,13 @@
  */
 command: "npm start"
 
-var express = require('express');
-var app = module.exports = express.createServer();
-var engine = require('ejs-locals');
+var express = require('express')
+  , engine = require('ejs-locals')
+  , app = express();
+
+//var app = module.exports = express.createServer();
+// use ejs-locals for all ejs templates:
+app.engine('ejs', engine);
 
 // Configuration
 app.configure(function(){

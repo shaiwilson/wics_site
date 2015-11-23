@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "ejs": "^2.3.4",
     "ejs-locals": "^1.0.2",
     "express": "2.5.8"
   },

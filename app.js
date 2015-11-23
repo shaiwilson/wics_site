@@ -7,7 +7,7 @@ command: "npm start"
 var express = require('express')
 ;
 var app = module.exports = express.createServer();
-var engine = require('ejs-locals');
+var engine = require('ejs');
 
 // Configuration
 app.configure(function(){
